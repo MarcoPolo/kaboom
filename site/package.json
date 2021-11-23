@@ -4,9 +4,11 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
+		"export": "next export -o out",
 		"check": "tsc --noEmit"
 	},
 	"dependencies": {
+		"@chainsafe/libp2p-noise": "^4.1.1",
 		"@codemirror/closebrackets": "0.19.0",
 		"@codemirror/commands": "0.19.5",
 		"@codemirror/comment": "0.19.0",
@@ -21,11 +23,20 @@
 		"@codemirror/state": "0.19.3",
 		"@codemirror/view": "0.19.12",
 		"@emotion/react": "11.5.0",
+		"automerge": "^1.0.1-preview.6",
+		"datastore-level": "^7.0.1",
 		"highlight.js": "11.3.1",
+		"libp2p": "^0.33.0",
+		"libp2p-bootstrap": "^0.13.0",
+		"libp2p-gossipsub": "^0.11.4",
+		"libp2p-mplex": "^0.10.4",
+		"libp2p-webrtc-star": "^0.24.0",
+		"libp2p-websockets": "^0.16.2",
 		"marked": "3.0.8",
 		"next": "12.0.2",
 		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"react-dom": "17.0.2",
+		"textdiff-create": "^1.0.5"
 	},
 	"devDependencies": {
 		"@emotion/babel-plugin": "11.3.0",
